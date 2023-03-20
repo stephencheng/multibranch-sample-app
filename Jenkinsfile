@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'linux'}
+  agent {label 'docker-alpine-agent-01'}
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
